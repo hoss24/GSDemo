@@ -14,4 +14,4 @@ Additional features added onto base tutorial from RIIS and DJI SDK Documentation
 Tested with Phantom 4 RTK & DJI Assistant 2 Simulator.
 
 **App Screenshots**
-<img src="Screenshots/1.png" width="400"> <img src="Screenshots/2.png" width="400"> <img src="Screenshots/3.png" width="400"> <img src="Screenshots/4.png" width="400">
+<img src="Screenshots/1.PNG" width="400"> <img src="Screenshots/2.PNG" width="400"> <img src="Screenshots/3.PNG" width="400"> <img src="Screenshots/4.PNG" width="400">

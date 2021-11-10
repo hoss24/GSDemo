@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9142B91127212A70006693D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B91027212A70006693D2 /* AppDelegate.swift */; };
+		9142B91327212A70006693D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B91227212A70006693D2 /* SceneDelegate.swift */; };
+		9142B91827212A70006693D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9142B91627212A70006693D2 /* Main.storyboard */; };
+		9142B91A27212A74006693D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9142B91927212A74006693D2 /* Assets.xcassets */; };
+		9142B91D27212A74006693D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9142B91B27212A74006693D2 /* LaunchScreen.storyboard */; };
+		9142B92A272133F0006693D2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B929272133F0006693D2 /* RootViewController.swift */; };
+		9142B92C2721363C006693D2 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B92B2721363C006693D2 /* MapController.swift */; };
+		9142B92E27221CF7006693D2 /* DemoUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B92D27221CF7006693D2 /* DemoUtility.swift */; };
+		9142B930272241BE006693D2 /* AircraftAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B92F272241BE006693D2 /* AircraftAnnotationView.swift */; };
+		9142B93227224313006693D2 /* AircraftAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B93127224313006693D2 /* AircraftAnnotation.swift */; };
+		9142B93527230CD1006693D2 /* DJIGSButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B93327230CD1006693D2 /* DJIGSButtonController.swift */; };
+		9142B93627230CD1006693D2 /* DJIGSButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9142B93427230CD1006693D2 /* DJIGSButtonController.xib */; };
+		9142B9392726F94B006693D2 /* DJIWaypointConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B9372726F94B006693D2 /* DJIWaypointConfigViewController.swift */; };
+		9142B93A2726F94B006693D2 /* DJIWaypointConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9142B9382726F94B006693D2 /* DJIWaypointConfigViewController.xib */; };
+		9142B95F272DDF83006693D2 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B95D272DDF83006693D2 /* AlertViewController.swift */; };
+		9142B960272DDF83006693D2 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9142B95E272DDF83006693D2 /* AlertViewController.xib */; };
+		9142B9672735FCF6006693D2 /* IndividualWaypointConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142B9652735FCF5006693D2 /* IndividualWaypointConfigViewController.swift */; };
+		9142B9682735FCF6006693D2 /* IndividualWaypointConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9142B9662735FCF6006693D2 /* IndividualWaypointConfigViewController.xib */; };
+		E031AC5EF1AF7516D201388D /* Pods_GSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F1DD9810CF9DEB5052ED8 /* Pods_GSDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07489E3FCF9BC9FF399F6D55 /* Pods-GSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSDemo.release.xcconfig"; path = "Target Support Files/Pods-GSDemo/Pods-GSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6259CC92C118E9C2CFE816A8 /* Pods-GSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSDemo.debug.xcconfig"; path = "Target Support Files/Pods-GSDemo/Pods-GSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9142B90D27212A70006693D2 /* GSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9142B91027212A70006693D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9142B91227212A70006693D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9142B91727212A70006693D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9142B91927212A74006693D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9142B91C27212A74006693D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9142B91E27212A74006693D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9142B92427212F6E006693D2 /* Constants.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Constants.xcconfig; sourceTree = "<group>"; };
+		9142B929272133F0006693D2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		9142B92B2721363C006693D2 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		9142B92D27221CF7006693D2 /* DemoUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUtility.swift; sourceTree = "<group>"; };
+		9142B92F272241BE006693D2 /* AircraftAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnnotationView.swift; sourceTree = "<group>"; };
+		9142B93127224313006693D2 /* AircraftAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnnotation.swift; sourceTree = "<group>"; };
+		9142B93327230CD1006693D2 /* DJIGSButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJIGSButtonController.swift; sourceTree = "<group>"; };
+		9142B93427230CD1006693D2 /* DJIGSButtonController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJIGSButtonController.xib; sourceTree = "<group>"; };
+		9142B9372726F94B006693D2 /* DJIWaypointConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJIWaypointConfigViewController.swift; sourceTree = "<group>"; };
+		9142B9382726F94B006693D2 /* DJIWaypointConfigViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJIWaypointConfigViewController.xib; sourceTree = "<group>"; };
+		9142B95D272DDF83006693D2 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		9142B95E272DDF83006693D2 /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		9142B9652735FCF5006693D2 /* IndividualWaypointConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualWaypointConfigViewController.swift; sourceTree = "<group>"; };
+		9142B9662735FCF6006693D2 /* IndividualWaypointConfigViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndividualWaypointConfigViewController.xib; sourceTree = "<group>"; };
+		B03F1DD9810CF9DEB5052ED8 /* Pods_GSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9142B90A27212A70006693D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E031AC5EF1AF7516D201388D /* Pods_GSDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C025A2EFA2C1B8AFFC49F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6259CC92C118E9C2CFE816A8 /* Pods-GSDemo.debug.xcconfig */,
+				07489E3FCF9BC9FF399F6D55 /* Pods-GSDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9142B90427212A70006693D2 = {
+			isa = PBXGroup;
+			children = (
+				9142B92427212F6E006693D2 /* Constants.xcconfig */,
+				9142B90F27212A70006693D2 /* GSDemo */,
+				9142B90E27212A70006693D2 /* Products */,
+				11C025A2EFA2C1B8AFFC49F7 /* Pods */,
+				941FC4BE71D64EC3C5C2384D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9142B90E27212A70006693D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9142B90D27212A70006693D2 /* GSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9142B90F27212A70006693D2 /* GSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9142B91027212A70006693D2 /* AppDelegate.swift */,
+				9142B91227212A70006693D2 /* SceneDelegate.swift */,
+				9142B91627212A70006693D2 /* Main.storyboard */,
+				9142B93327230CD1006693D2 /* DJIGSButtonController.swift */,
+				9142B93427230CD1006693D2 /* DJIGSButtonController.xib */,
+				9142B929272133F0006693D2 /* RootViewController.swift */,
+				9142B92D27221CF7006693D2 /* DemoUtility.swift */,
+				9142B92F272241BE006693D2 /* AircraftAnnotationView.swift */,
+				9142B93127224313006693D2 /* AircraftAnnotation.swift */,
+				9142B92B2721363C006693D2 /* MapController.swift */,
+				9142B95D272DDF83006693D2 /* AlertViewController.swift */,
+				9142B95E272DDF83006693D2 /* AlertViewController.xib */,
+				9142B91927212A74006693D2 /* Assets.xcassets */,
+				9142B91B27212A74006693D2 /* LaunchScreen.storyboard */,
+				9142B91E27212A74006693D2 /* Info.plist */,
+				9142B9372726F94B006693D2 /* DJIWaypointConfigViewController.swift */,
+				9142B9382726F94B006693D2 /* DJIWaypointConfigViewController.xib */,
+				9142B9652735FCF5006693D2 /* IndividualWaypointConfigViewController.swift */,
+				9142B9662735FCF6006693D2 /* IndividualWaypointConfigViewController.xib */,
+			);
+			path = GSDemo;
+			sourceTree = "<group>";
+		};
+		941FC4BE71D64EC3C5C2384D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B03F1DD9810CF9DEB5052ED8 /* Pods_GSDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9142B90C27212A70006693D2 /* GSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9142B92127212A74006693D2 /* Build configuration list for PBXNativeTarget "GSDemo" */;
+			buildPhases = (
+				3CD68BA6454320185407E6BF /* [CP] Check Pods Manifest.lock */,
+				9142B90927212A70006693D2 /* Sources */,
+				9142B90A27212A70006693D2 /* Frameworks */,
+				9142B90B27212A70006693D2 /* Resources */,
+				DB9C02715CFD43938CE71C92 /* [CP] Embed Pods Frameworks */,
+				C5C114A4783C3ACE6777B663 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSDemo;
+			productName = GSDemo;
+			productReference = 9142B90D27212A70006693D2 /* GSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9142B90527212A70006693D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9142B90C27212A70006693D2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 9142B90827212A70006693D2 /* Build configuration list for PBXProject "GSDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9142B90427212A70006693D2;
+			productRefGroup = 9142B90E27212A70006693D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9142B90C27212A70006693D2 /* GSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9142B90B27212A70006693D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9142B91D27212A74006693D2 /* LaunchScreen.storyboard in Resources */,
+				9142B93A2726F94B006693D2 /* DJIWaypointConfigViewController.xib in Resources */,
+				9142B9682735FCF6006693D2 /* IndividualWaypointConfigViewController.xib in Resources */,
+				9142B91A27212A74006693D2 /* Assets.xcassets in Resources */,
+				9142B91827212A70006693D2 /* Main.storyboard in Resources */,
+				9142B93627230CD1006693D2 /* DJIGSButtonController.xib in Resources */,
+				9142B960272DDF83006693D2 /* AlertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CD68BA6454320185407E6BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C114A4783C3ACE6777B663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSDemo/Pods-GSDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSDemo/Pods-GSDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSDemo/Pods-GSDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9C02715CFD43938CE71C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSDemo/Pods-GSDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSDemo/Pods-GSDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSDemo/Pods-GSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9142B90927212A70006693D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9142B92C2721363C006693D2 /* MapController.swift in Sources */,
+				9142B92E27221CF7006693D2 /* DemoUtility.swift in Sources */,
+				9142B9672735FCF6006693D2 /* IndividualWaypointConfigViewController.swift in Sources */,
+				9142B91127212A70006693D2 /* AppDelegate.swift in Sources */,
+				9142B95F272DDF83006693D2 /* AlertViewController.swift in Sources */,
+				9142B930272241BE006693D2 /* AircraftAnnotationView.swift in Sources */,
+				9142B93227224313006693D2 /* AircraftAnnotation.swift in Sources */,
+				9142B9392726F94B006693D2 /* DJIWaypointConfigViewController.swift in Sources */,
+				9142B91327212A70006693D2 /* SceneDelegate.swift in Sources */,
+				9142B92A272133F0006693D2 /* RootViewController.swift in Sources */,
+				9142B93527230CD1006693D2 /* DJIGSButtonController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9142B91627212A70006693D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9142B91727212A70006693D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9142B91B27212A74006693D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9142B91C27212A74006693D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9142B91F27212A74006693D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9142B92427212F6E006693D2 /* Constants.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/Headers/Public";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9142B92027212A74006693D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9142B92427212F6E006693D2 /* Constants.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/Headers/Public";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9142B92227212A74006693D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6259CC92C118E9C2CFE816A8 /* Pods-GSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6WU2Q99MM;
+				INFOPLIST_FILE = GSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ghosticka.GSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9142B92327212A74006693D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07489E3FCF9BC9FF399F6D55 /* Pods-GSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6WU2Q99MM;
+				INFOPLIST_FILE = GSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ghosticka.GSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9142B90827212A70006693D2 /* Build configuration list for PBXProject "GSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9142B91F27212A74006693D2 /* Debug */,
+				9142B92027212A74006693D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9142B92127212A74006693D2 /* Build configuration list for PBXNativeTarget "GSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9142B92227212A74006693D2 /* Debug */,
+				9142B92327212A74006693D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9142B90527212A70006693D2 /* Project object */;
+}
